@@ -1,0 +1,147 @@
+
+.footer
+{
+    padding: 13px 0;
+}
+.contact-main
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 0;
+}
+.container
+{
+   display:flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   margin-top: -5rem;
+}
+
+.body .heading h2
+{
+    
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.me
+{
+    color: #72d3f7;
+}
+.p-tag
+{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999999;
+    margin: 3px 0 100px;
+}
+
+.details
+{
+    position: inherit;
+    margin-top: 14px;
+    padding-top: -14px;
+    justify-items: center;
+    display:grid;
+    gap: 1rem;
+    grid-row-gap: 3rem;
+    margin: 1rem 10%;
+    padding: 10px;
+    grid-template-columns:repeat(3,1fr);
+}
+.info
+{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+.info i 
+{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    margin-right: 10px;
+    color: #02434b;
+    margin-right: 20px;
+    text-align: center;
+    width: 20px;
+}
+.way
+{
+    margin: 0;
+}
+.info h4 
+{
+    font-size: 13px;
+    line-height: 1.4;
+}
+.info h4 span,.text1
+{
+    font-size: 13px;
+    font-weight: 300;
+    color: #999999;
+}
+.contact
+{
+    font-weight: 500;
+    margin-bottom: -5px;
+}
+.navbar
+{
+    box-sizing: border-box;
+    text-align: right;
+}
+.a 
+{
+    color: #999999;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .25em;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+    right: 2%;
+}
+.a:hover
+  {
+    font-weight: 500;
+  }
+  .a:hover::after {
+    color: black;
+    text-shadow: 0 0 5px hsl(0, 0%, 0%); 
+
+  }
+
+
+@media only screen and (max-width: 768px)
+{
+    *
+    {
+        color: black;
+    }
+    .p-tag
+    {
+        padding: 10px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.7;
+        color: #242323;
+        margin-bottom: 7%;
+    }
+    .container
+    {
+       transform:scale(0.95);
+    }
+    .details
+    {
+        padding-top: 30px;
+        padding-bottom: 1px;
+        gap: 1px;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

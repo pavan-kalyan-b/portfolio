@@ -1,0 +1,92 @@
+
+a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .me {
+    width: 400px;
+    margin: 90px auto;
+  }
+  .me p,
+  .me h1 {
+    letter-spacing: 3px;
+    text-align: center;
+  }
+  .me p {
+    font-weight: 200;
+  }
+  .me span {
+    font-weight:bold;
+  }
+  .social {
+    position:fixed;
+    top:40%;
+    right: 0;
+  }
+  .social ul {
+    padding: 10px;
+    transform: translate(270px, 0);
+  }
+  .social ul li {
+    display: block;
+    margin: 5px;
+    background: rgb(255, 255, 255);
+    width: 300px;
+    text-align:left;
+    padding: 5px;
+    border-radius: 30px 0 0 30px;
+    transition: all 1s;
+  }
+  .social ul li:hover {
+    transform: translate(-75px, 0);
+    background: rgb(255, 255, 255);
+  }
+  .social ul li:hover a {
+    color: #000;
+  }
+  .social ul li:hover i {
+    color: rgb(102, 205, 253);
+    background: rgb(255, 255, 255);
+    transform: rotate(360deg);
+    transition: all 1s;
+  }
+  .social ul li i {
+    margin-right: 10px;
+    color: #030303;
+    background: #ffffff;
+    padding: 0.1px;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    background: #ffffff;
+    transform: rotate(0deg);
+  } 
+
+
+
+
+
+@media only screen and (max-width: 768px)
+{
+  .social {
+        top: 50%;
+        bottom: 0;
+        right: 3%;
+        z-index: 1; 
+    }
+    .social ul {
+        transform: translate(0, 0);
+    }
+    .social ul li {
+        width: 10px; 
+        text-align: center; 
+    }
+    .social ul li span {
+      display: none;
+  }
+    .social ul li:hover {
+        transform: none;
+    }
+}
+  
